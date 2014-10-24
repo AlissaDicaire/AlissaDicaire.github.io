@@ -66,6 +66,23 @@ nav a:active {
 	width: 50%;	
 }
 
+h1 {
+	text-align: center;	
+	color: rgba(255,255,255,1.00);
+}
+
+h2 {
+	text-align: center;
+	color: rgba(225,136,21,1.00);	
+}
+
+p {
+	text-align: center;	
+	padding: 3rem;
+	position: relative;
+	margin-right: 300px;
+}
+
 @media only screen and (min-width: 21em) {
 
 nav {
