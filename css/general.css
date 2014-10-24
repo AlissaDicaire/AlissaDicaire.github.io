@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section {
+	padding: 20rem 0;	
+}
+
+.welcome {
+	background:rgba(234,243,87,1.00);
+	background-size: cover;	
+}
+
+.why {
+	background: rgba(146,207,83,1.00);	
+}
+
+.portfolio {
+	background: rgba(83,172,229,1.00);	
+}
+
+.contact {
+	background: rgba(208,81,192,1.00);
+}
