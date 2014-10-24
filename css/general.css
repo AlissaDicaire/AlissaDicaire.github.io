@@ -6,7 +6,7 @@ section {
 }
 
 .welcome {
-	background:rgba(234,243,87,1.00);
+	background-image: url(../images/fluffiesbw.jpg);
 	background-size: cover;	
 }
 
@@ -20,4 +20,35 @@ section {
 
 .contact {
 	background: rgba(208,81,192,1.00);
+}
+
+nav {
+	text-align: center;
+	font-size: 3rem;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif	;
+	position: absolute;
+	top: 4rem;
+}
+
+nav li{
+	display: inline-block;
+		
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	color: rgba(253,253,253,1.00);
+	text-decoration: underline;
+}
+
+.logo {
+	width: 50%;	
 }
