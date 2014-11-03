@@ -7,8 +7,16 @@
 @-o-viewport { width: device-width; scale: 1;}
 @viewport { width: device-width; scale: 1;}
 
-section {
-	
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+* {
+	box-sizing: border-box;	
 }
 
 .welcome {
@@ -17,25 +25,137 @@ section {
 }
 
 .why {
-	background: rgba(209,207,207,1.00);	
-}
-
-.portfolio {
-	background:rgba(241,240,197,1.00);	
-}
-
-.contact {
-	background: rgba(208,237,215,1.00);
+	background: white;	
 	padding: 10rem;
 }
 
+.portfolio {
+	background: white;	
+}
+
+.contact {
+	background: rgba(255,255,255,1.00);
+	padding: 10rem;
+}
+
+.social {
+	width: 10%;
+	display: inline-block;	
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;	
+}
+
+.hide-text{
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.social a{
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 40px; 
+	/*background-color: #C66;*/
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: .8125rem;
+	color: #F96;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+}
+
+.social a:hover,
+.social a:active,
+.social a:focus{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;	
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;	
+	
+	color: #C36;
+}
+
+
+/* This is for the hovering over the images */
+
+.piece {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-animation: slide-up 2000ms linear;
+}
+
+.work__info {
+	background-color: black;
+	position: absolute;
+	color: #fff;
+	padding: 8em;
+	width: 100%;
+	bottom: -4em;
+	opacity: 0;
+	transition: all 250ms linear;
+} 
+
+.piece:hover .work__info{
+		bottom: 0;
+		opacity: 1;
+}
+
+@-webkit-keyframes slide-up {
+	
+	0% {
+		opacity: 10em;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+
+}
+
+@keyframes slide-up {
+	
+	0% {
+		opacity: 10em;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+
+}
+
+/* This is for the hovering over the images. DONE */
+
 nav {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	position: fixed;
-	background-color: rgba(241,194,91,1.00);
+	background-color: rgba(255,255,255,1.00);
 	display: none;
 	margin-bottom: 5rem;
+	font-family: 'Poiret One', cursive;
 }
 
 nav li{
@@ -53,7 +173,7 @@ nav a:visited {
 nav a:hover,
 nav a:focus,
 nav a:active {
-	color: rgba(253,253,253,1.00);
+	color: rgba(172,68,224,1.00);
 	text-decoration: underline;
 }
 
@@ -82,16 +202,26 @@ nav a:active {
 h1 {
 	text-align: center;	
 	color: rgba(255,255,255,1.00);
+	font-family: 'Poiret One', cursive;
 }
 
 h2 {
 	text-align: center;
-	color: rgba(225,136,21,1.00);	
+	color: rgba(225,136,21,1.00);
+	font-family: 'Poiret One', cursive;	
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.25rem;
+	color: rgba(130,196,99,1.00);
+	text-align: center;
 }
 
 p {
 	text-align: center;	
 	padding: 3rem;
 	position: relative;
+	font-family: 'Open Sans', sans-serif;
 }
 
