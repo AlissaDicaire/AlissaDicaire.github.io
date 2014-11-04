@@ -35,7 +35,7 @@ body {
 }
 
 .why {
-	background: white;	
+	background: white;
 }
 
 .portfolio {
@@ -44,12 +44,10 @@ body {
 
 .contact {
 	background: rgba(255,255,255,1.00);
-	padding: 10rem;
 }
 
 .social {
-	xwidth: 10%;
-	xdisplay: inline-block;	
+	text-align: center;
 }
 
 .ease-all{
