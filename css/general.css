@@ -85,11 +85,11 @@ body {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #2093F3;
-	-moz-box-shadow: inset 0px 0px 0px 40px #2093F3;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #2093F3;
-	-o-box-shadow: inset 0px 0px 0px 40px #2093F3;
-	box-shadow: inset 0px 0px 0px 40px #2093F3;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #45E0D1;
+	-moz-box-shadow: inset 0px 0px 0px 40px #45E0D1;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #45E0D1;
+	-o-box-shadow: inset 0px 0px 0px 40px #45E0D1;
+	box-shadow: inset 0px 0px 0px 40px #45E0D1;
 }
 
 .social a:hover,
@@ -244,3 +244,4 @@ strong {
 .island {
 	padding: 1em;
 }
+
