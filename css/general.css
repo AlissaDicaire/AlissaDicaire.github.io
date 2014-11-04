@@ -36,6 +36,7 @@ body {
 
 .why {
 	background: white;
+	padding: 6em 0; /*6em is the top and bottom and 0 is the left and right */
 }
 
 .portfolio {
@@ -44,10 +45,12 @@ body {
 
 .contact {
 	background: rgba(255,255,255,1.00);
+	padding: 6em 0;
 }
 
 .social {
 	text-align: center;
+	padding: 4em 0;
 }
 
 .ease-all{
