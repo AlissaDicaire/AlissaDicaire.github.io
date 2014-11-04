@@ -152,8 +152,13 @@ nav {
 	padding: 0;
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
 nav li{
-	display: inline-block;
 	padding: .5em;
 		
 }
@@ -175,7 +180,6 @@ nav a:active {
 .nav[data-state="expanded"]{
 	display: block;
 	position: relative;
-	margin-bottom: 13rem;
 }
 
 @media screen and (min-width: 25em) {
@@ -187,6 +191,15 @@ nav a:active {
 	.nav-btn {
 		display:none;	
 	}
+	
+	nav li{
+		display: inline-block;	
+	}
+	
+	.nav[data-state="expanded"]{
+	margin-bottom: 13rem;
+}
+
 	
 }
 
