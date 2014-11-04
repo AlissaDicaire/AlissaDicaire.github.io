@@ -196,9 +196,10 @@ nav a:active {
 		display: inline-block;	
 	}
 	
-	.nav[data-state="expanded"]{
-	margin-bottom: 13rem;
-}
+
+	h1 {
+		padding-top: 2em;
+	}
 
 	
 }
