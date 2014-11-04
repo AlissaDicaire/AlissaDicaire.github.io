@@ -36,7 +36,6 @@ body {
 
 .why {
 	background: white;	
-	padding: 10rem;
 }
 
 .portfolio {
@@ -216,7 +215,6 @@ h3 {
 
 p {
 	text-align: center;	
-	position: relative;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -224,6 +222,7 @@ strong {
 	display: inline-block;
 	text-align: center;
 	font-family: 'Poiret One', cursive;	
+	font-size: 1rem;
 		
 }
 
