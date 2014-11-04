@@ -36,7 +36,7 @@ body {
 
 .why {
 	background: white;
-	padding: 6em 0; /*6em is the top and bottom and 0 is the left and right */
+	padding: 6em 2em; /*6em is the top and bottom and 0 is the left and right */
 }
 
 .portfolio {
@@ -45,7 +45,7 @@ body {
 
 .contact {
 	background: rgba(255,255,255,1.00);
-	padding: 6em 0;
+	padding: 6em 2em;
 }
 
 .social {
@@ -85,11 +85,11 @@ body {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #01D6E7;
-	-moz-box-shadow: inset 0px 0px 0px 40px #01D6E7;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #01D6E7;
-	-o-box-shadow: inset 0px 0px 0px 40px #01D6E7;
-	box-shadow: inset 0px 0px 0px 40px #01D6E7;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #2093F3;
+	-moz-box-shadow: inset 0px 0px 0px 40px #2093F3;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #2093F3;
+	-o-box-shadow: inset 0px 0px 0px 40px #2093F3;
+	box-shadow: inset 0px 0px 0px 40px #2093F3;
 }
 
 .social a:hover,
@@ -141,7 +141,7 @@ body {
 /* This is for the hovering over the images. DONE */
 
 nav {
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	position: fixed;
 	text-align: center;
 	background-color: rgba(255,255,255,1.00);
