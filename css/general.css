@@ -31,7 +31,7 @@ body {
 
 .welcome {
 	background: url(../images/fluffiesbw.jpg);
-	background-size: cover;	
+	background-size: cover;
 }
 
 .why {
@@ -68,7 +68,6 @@ body {
 	overflow: hidden;
 }
 
-
 .social a{
 	display: inline-block;
 	
@@ -78,7 +77,7 @@ body {
 	margin-right: 1rem;
 	text-align: center;
 	padding-top: .8125rem;
-	color: #F96;
+	color: rgba(255,255,255,1.00); /* colour of the icon before the hover*/
 	
 	-webkit-border-radius: 40px;
 	-moz-border-radius: 40px;
@@ -86,21 +85,21 @@ body {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
-	-moz-box-shadow: inset 0px 0px 0px 40px #222;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #222;
-	-o-box-shadow: inset 0px 0px 0px 40px #222;
-	box-shadow: inset 0px 0px 0px 40px #222;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #01D6E7;
+	-moz-box-shadow: inset 0px 0px 0px 40px #01D6E7;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #01D6E7;
+	-o-box-shadow: inset 0px 0px 0px 40px #01D6E7;
+	box-shadow: inset 0px 0px 0px 40px #01D6E7;
 }
 
 .social a:hover,
 .social a:active,
 .social a:focus{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
-	-moz-box-shadow: inset 0px 0px 0px 3px #222;	
-	-ms-box-shadow: inset 0px 0px 0px 3px #222;
-	-o-box-shadow: inset 0px 0px 0px 3px #222;
-	box-shadow: inset 0px 0px 0px 3px #222;	
+	-webkit-box-shadow: inset 0px 0px 0px 3px #01D6E7;
+	-moz-box-shadow: inset 0px 0px 0px 3px #01D6E7;	
+	-ms-box-shadow: inset 0px 0px 0px 3px #01D6E7;
+	-o-box-shadow: inset 0px 0px 0px 3px #01D6E7;
+	box-shadow: inset 0px 0px 0px 3px #01D6E7;	
 	
 	color: rgba(248,182,39,1.00); /* colour of my actual icon when hovering over it */
 }
@@ -142,7 +141,7 @@ body {
 /* This is for the hovering over the images. DONE */
 
 nav {
-	font-size: 1.5rem;
+	font-size: 1.125rem;
 	position: fixed;
 	text-align: center;
 	background-color: rgba(255,255,255,1.00);
@@ -150,11 +149,12 @@ nav {
 	font-family: 'Poiret One', cursive;
 	z-index: 1000;
 	width: 100%;
+	padding: 0;
 }
 
 nav li{
 	display: inline-block;
-	padding: 1em;
+	padding: .5em;
 		
 }
 
