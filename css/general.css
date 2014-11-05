@@ -116,7 +116,7 @@ body {
 }
 
 .work__info {
-	background-color: black;
+	background-color: #F5AB0F;
 	position: absolute;
 	color: #fff;
 	padding: 3em;
@@ -202,6 +202,7 @@ nav a:active {
 	}
 
 	
+	
 }
 
 .logo {
@@ -237,7 +238,8 @@ strong {
 	display: inline-block;
 	text-align: center;
 	font-family: 'Poiret One', cursive;	
-	font-size: 1rem;
+	font-size: 1.5rem;
+	color: rgba(0,0,0,1.00);
 		
 }
 
@@ -245,3 +247,15 @@ strong {
 	padding: 1em;
 }
 
+.item {
+		font-size: 1rem;
+}
+
+.selfie { 
+	float: left;
+	padding: 0 3rem;
+}
+
+.alissa {
+	padding: 0 5rem;	
+}
