@@ -129,7 +129,7 @@ body {
 
 .piece:hover .work__info{
 
-		opacity: 1;
+		opacity: .90;
 }
 
 .piece img {
