@@ -73,7 +73,6 @@ body {
 	
 	width: 75px;
 	height: 75px; 
-	/*background-color: #C66;*/
 	margin-right: 1rem;
 	text-align: center;
 	padding-top: .8125rem;
@@ -85,23 +84,23 @@ body {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #45E0D1;
-	-moz-box-shadow: inset 0px 0px 0px 40px #45E0D1;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #45E0D1;
-	-o-box-shadow: inset 0px 0px 0px 40px #45E0D1;
-	box-shadow: inset 0px 0px 0px 40px #45E0D1;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #0993B5;
+	-moz-box-shadow: inset 0px 0px 0px 40px #0993B5;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #0993B5;
+	-o-box-shadow: inset 0px 0px 0px 40px #0993B5;
+	box-shadow: inset 0px 0px 0px 40px #0993B5;
 }
 
 .social a:hover,
 .social a:active,
 .social a:focus{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #01D6E7;
-	-moz-box-shadow: inset 0px 0px 0px 3px #01D6E7;	
-	-ms-box-shadow: inset 0px 0px 0px 3px #01D6E7;
-	-o-box-shadow: inset 0px 0px 0px 3px #01D6E7;
-	box-shadow: inset 0px 0px 0px 3px #01D6E7;	
+	-webkit-box-shadow: inset 0px 0px 0px 3px #B11B95;
+	-moz-box-shadow: inset 0px 0px 0px 3px #B11B95;	
+	-ms-box-shadow: inset 0px 0px 0px 3px #B11B95;
+	-o-box-shadow: inset 0px 0px 0px 3px #B11B95;
+	box-shadow: inset 0px 0px 0px 3px #B11B95;	
 	
-	color: rgba(248,182,39,1.00); /* colour of my actual icon when hovering over it */
+	color: #B11B95; /* colour of my actual icon when hovering over it */
 }
 
 
@@ -125,6 +124,7 @@ body {
 	top: 0;
 	opacity: 0;
 	transition: all 250ms linear;
+	z-index: 1000;
 } 
 
 .piece:hover .work__info{
@@ -238,9 +238,13 @@ strong {
 	display: inline-block;
 	text-align: center;
 	font-family: 'Poiret One', cursive;	
-	font-size: 1.5rem;
-	color: rgba(0,0,0,1.00);
-		
+	font-size: 1.5rem;	
+	color: #B11B95;
+	text-decoration: underline;
+}
+
+.email {
+	text-decoration: underline; 	
 }
 
 .island {
