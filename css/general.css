@@ -130,8 +130,8 @@ body {
 
 .piece:hover .work__info,
 .piece:active .work__info,
-.piece:focus .work__info 
-{
+.piece:focus .work__info,
+.piece.touched .work__info {
 
 		opacity: .90;
 }
