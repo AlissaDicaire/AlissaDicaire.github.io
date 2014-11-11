@@ -264,8 +264,9 @@ if(Modernizr.touch){
 	$(".piece").on("click",function(){
 		$(this).toggleClass("touched");
 	}); 
-	$(".work__info").on("click",function(){
-		$(this).parents('.piece').removeClass("touched");
+	$(".work__info").on("click",function(e){
+		e.stopPropagation();
+		$(this).parent().removeClass("touched");
 	}); 
 }
   
