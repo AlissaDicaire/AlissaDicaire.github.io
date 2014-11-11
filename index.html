@@ -260,14 +260,14 @@
 	});
   });
   
-  if(Modernizr.touch){
+if(Modernizr.touch){
 	$(".piece").on("click",function(){
 		$(this).toggleClass("touched");
-		}); 
+	}); 
 	$(".work__info").on("click",function(){
-		$(this).parent().toggleClass("touched");
-		}); 
-	}
+		$(this).parents('.piece').removeClass("touched");
+	}); 
+}
   
 </script>
 </body>
