@@ -128,7 +128,10 @@ body {
 	-webkit-overflow-scrolling: touch;
 } 
 
-.piece:hover .work__info{
+.piece:hover .work__info,
+.piece:active .work__info,
+.piece:focus .work__info 
+{
 
 		opacity: .90;
 }
@@ -148,7 +151,7 @@ nav {
 	background-color: rgba(255,255,255,1.00);
 	display: none;
 	font-family: 'Poiret One', cursive;
-	z-index: 1000;
+	z-index: 1000000;
 	width: 100%;
 	padding: 0;
 }
