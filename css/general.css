@@ -32,6 +32,7 @@ body {
 .welcome {
 	background: url(../images/fluffiesbw.jpg);
 	background-size: cover;
+	padding: 4em 0;
 }
 
 .why {
@@ -151,13 +152,14 @@ nav {
 	font-family: 'Poiret One', cursive;
 	z-index: 1000000;
 	width: 100%;
-	padding: 0;
+	
+
 }
 
 nav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;	
+	margin: -2.75em;
+	background-color: white;
 }
 
 nav li{
@@ -203,7 +205,6 @@ nav a:active {
 		padding-top: 2em;
 	}
 
-	
 	
 }
 
@@ -258,10 +259,6 @@ strong {
 }
 
 .selfie { 
-	float: left;
-	padding: 0 3rem;
+	
 }
 
-.alissa {
-	padding: 0 5rem;	
-}
