@@ -30,23 +30,23 @@ body {
 }
 
 .welcome {
-	background: url(../images/fluffiesbw.jpg);
+	background: url(../images/catcher.jpg);
 	background-size: cover;
 	padding: 4em 0;
 }
 
 .why {
-	background: white;
 	padding: 6em 2em; /*6em is the top and bottom and 0 is the left and right */
 }
 
 .portfolio {
-	background: white;	
+	background:white;	
 }
 
 .contact {
-	background: rgba(255,255,255,1.00);
-	padding: 6em 2em;
+	background: url(../images/candy_flower.jpg);
+	background-size: cover;
+	padding: 6em 0em;
 }
 
 .social {
