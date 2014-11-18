@@ -186,6 +186,11 @@ nav a:active {
 	position: relative;
 }
 
+.nav-btn {
+	display: inline-block;
+	width: 30%;	
+}
+
 @media screen and (min-width: 25em) {
 	
 	nav {
