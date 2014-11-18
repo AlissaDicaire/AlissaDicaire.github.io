@@ -212,16 +212,14 @@ nav a:active {
 
 	.logo {
 	
-		width: 50%;
-		visibility: hidden;	
+		width: 50%;	
 	}
 	
-}
-
-
-
-.logo {
-	visibility:visible;	
+	.follow_me {
+		width: 30%;
+		padding: 0;
+	}
+	
 }
 
 h1 {
@@ -274,11 +272,11 @@ strong {
 
 .selfie { 
 	text-align: center;
-
 }
 
-.footer {
-	font-size: .75rem;	
+.follow_me {
+	text-align: center;
+	width: 40%;
 }
 
 h4 {
@@ -286,4 +284,8 @@ h4 {
 	text-align: center;
 	font-size: 1.5rem;	
 	color: #000000;
+}
+
+.footer {
+	font-size: .75rem;	
 }
