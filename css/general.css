@@ -116,7 +116,7 @@ body {
 }
 
 .work__info {
-	background-color: #F5AB0F;
+	background-color: #679D03;
 	position: absolute;
 	color: #fff;
 	padding: .25em;
@@ -242,6 +242,7 @@ h3 {
 p {
 	text-align: center;	
 	font-family: 'Open Sans', sans-serif;
+	padding: 0 .5em;
 }
 
 strong {
@@ -278,5 +279,5 @@ h4 {
 	font-family: 'Poiret One', cursive;
 	text-align: center;
 	font-size: 1.5rem;	
-	color: rgba(0,132,205,1.00);
+	color: #000000;
 }
