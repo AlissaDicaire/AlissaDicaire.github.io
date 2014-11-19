@@ -279,6 +279,10 @@ strong {
 	width: 40%;
 }
 
+.text-image {
+	text-align: center;	
+}
+
 h4 {
 	font-family: 'Poiret One', cursive;
 	text-align: center;
