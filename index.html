@@ -280,10 +280,11 @@ if(Modernizr.touch){
 	}); 
 }
  
-if (document.clientWidth>700) {
+if (document.documentElement.clientWidth>700) {
 	$('.group1').colorbox({rel:'group1'}); 
+	$('.group2').colorbox({rel:'group2'}); 
 } else {
-	$('.group1').on('click', function (e) {
+	$('.group1, .group2, .group3').on('click', function (e) {
 		e.preventDefault();
 	});
 }
