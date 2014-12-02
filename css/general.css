@@ -39,6 +39,10 @@ body {
 	padding: 6em 2em; /*6em is the top and bottom and 0 is the left and right */
 }
 
+.space {
+	
+}
+
 .portfolio {
 	background:white;	
 }
@@ -225,6 +229,9 @@ nav a:active {
 		padding: 0;
 	}
 	
+	.text {
+		padding: 0 10rem;
+	}
 }
 
 h1 {
@@ -293,6 +300,10 @@ h4 {
 	text-align: center;
 	font-size: 1.5rem;	
 	color: #000000;
+}
+
+.text {
+	padding: 0 15rem;
 }
 
 .footer {
