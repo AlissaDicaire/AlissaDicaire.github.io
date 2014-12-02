@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.404 {
+	background: url(../images/catcher.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;		
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;	
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;	
+}
+
+.sorry {
+	width: 100%;
+	margin: 0 auto;	
+}
+
+.behance {
+	text-decortion: underline;
+	font-size: 3rem;	
+	text-align: center;
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #1F5B80;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #42BFE5;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 25em) {
+	
+	.sorry {
+		width: 50%;
+		margin: 0 auto;	
+	}
+	
+}
