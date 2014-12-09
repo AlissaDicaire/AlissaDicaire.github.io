@@ -237,7 +237,6 @@ h1 {
 	text-align: center;	
 	color: rgba(255,255,255,1.00);
 	font-family: 'Poiret One', cursive;
-	margin: 0;
 }
 
 h2 {
@@ -298,6 +297,7 @@ strong {
 
 .selfie { 
 	text-align: center;
+	padding: 2rem;
 }
 
 .follow_me {
