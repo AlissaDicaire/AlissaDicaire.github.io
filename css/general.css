@@ -57,6 +57,7 @@ body {
 }
 
 .contact {
+	background: url(../images/candy_flower.jpg);
 	background-size: cover;
 	padding: 1em 0em;
 }
