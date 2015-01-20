@@ -129,7 +129,7 @@ body {
 }
 
 .work__info {
-	background-color: #DB7EF0;
+	background-color: #E0A001;  /*hover state on images colour*/
 	position: absolute;
 	color: #fff;
 	padding: .25em;
