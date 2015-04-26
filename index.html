@@ -79,12 +79,13 @@
 			
 			<h2>Designer • Photographer • Classic Rock Lover • Happiest Outside</h2>
 			
-			<p class="text">My name is Alissa Dicaire and I am a Graphic Design Student studying my final year at Algonquin College in Ottawa, Canada. My main focus and disciplines are illustration, photography and branding. I got into design for one main reason: to make a difference in the world. One colour at a time.</p>
+			<p class="text">My name is Alissa Dicaire and I am a Graphic Designer in Ottawa, Canada. My main focus and disciplines are illustration, photography and branding. I got into design for one main reason: to make a difference in the world. One colour at a time.</p>
 		
 		<div class="selfie">
-			<img src="images/selfie.png" alt="">
-			<img src="images/selfie2.png" alt="">
+			<img class="circle-image" src="images/selfie.png" alt="">
+			<img class="circle-image" src="images/selfie2.png" alt="">
 		</div>
+		
 		
 		<div class="text-image">
 			<img class="follow_me unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3" src="images/me.svg" alt="follow me">
@@ -213,6 +214,17 @@
 				</figcaption>
 			</figure>
 		</div>
+		
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island">
+			<figure class="piece">
+				  <a class="group10" href="images/info1.jpg"><img src="images/info.jpg" alt=""></a>
+				  <a class="group10" href="images/info1.jpg"></a>
+				<figcaption class="work__info">
+					<h5>CFDC Infographic</h5>
+					<p>This is an infographic designed for the Canadian Fossil Discovery Center in Manitoba, Canada. I designed it while working for Canadian Geographic Magazine. It contains 10 fossil facts about prehistoric Manitoba including the fact that Manitoba was covered in water. It is featured on Canadian Geographic's Travel website: http://www.canadiangeographic.ca/travel/travel_magazine/may15/10-amazing-manitoba-fossil-facts.asp and will also be displayed at the museum in the summer of 2015. A link to see the infographic is also listed in the Summer Travel Issue under the 'Bruce' article. Designed in Adobe Illustrator and all facts were supplied from the CFDC.</p>
+				</figcaption>
+			</figure>
+		</div>
 
 </section>
 
@@ -272,7 +284,8 @@ if (document.documentElement.clientWidth>700) {
 	$('.group6').colorbox({rel:'group6'}); 
 	$('.group7').colorbox({rel:'group7'}); 
 	$('.group8').colorbox({rel:'group8'}); 
-	$('.group9').colorbox({rel:'group9'}); 
+	$('.group9').colorbox({rel:'group9'});
+	$('.group10').colorbox({rel:'group10'}); 
 } else {
 	$('.group1, .group2, .group3, .group4, .group5, .group6, .group7, .group8, .group9').on('click', function (e) {
 		e.preventDefault();

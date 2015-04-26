@@ -303,7 +303,11 @@ strong {
 
 .selfie { 
 	text-align: center;
-	padding: 2rem;
+	padding: 1rem;
+}
+
+.circle-image {	
+	padding: 1rem;	
 }
 
 .follow_me {
