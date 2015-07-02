@@ -30,7 +30,7 @@ body {
 }
 
 .welcome {
-	background: url(../images/bg.jpg);
+	background-color: #F7E4F4;
 	background-size: cover;
 	padding: 8em 0;
 }
