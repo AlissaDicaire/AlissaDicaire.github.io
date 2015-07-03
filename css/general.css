@@ -30,7 +30,7 @@ body {
 }
 
 .welcome {
-	background-color: #F7E4F4;
+	background: url(../images/catcher.jpg);
 	background-size: cover;
 	padding: 8em 0;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .work__info {
-	background-color: #E0A001;  /*hover state on images colour*/
+	background-color: #FA9FBE;  /*hover state on images colour*/
 	position: absolute;
 	color: #fff;
 	padding: .25em;
