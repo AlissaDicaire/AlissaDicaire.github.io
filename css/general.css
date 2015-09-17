@@ -323,6 +323,7 @@ strong {
 .text {
 	max-width: 40em;
 	margin: 0 auto;
+	background-color: #ECFB8B;
 }
 
 .footer {
