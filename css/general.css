@@ -36,7 +36,7 @@ body {
 }
 
 .why {
-	background-color: #FFFFFF;
+	background-color: #CCEFEC;
 	background-size: cover;
 	padding: 6em 2em; /*6em is the top and bottom and 0 is the left and right */
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .contact {
-	background: url(../images/candy_flower.jpg);
+	background-color: white;
 	background-size: cover;
 	padding: 1em 0em;
 }
@@ -67,6 +67,7 @@ body {
 	text-align: center;
 	padding: 4em 0;
 }
+
 
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
@@ -99,23 +100,23 @@ body {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #0993B5;
-	-moz-box-shadow: inset 0px 0px 0px 40px #0993B5;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #0993B5;
-	-o-box-shadow: inset 0px 0px 0px 40px #0993B5;
-	box-shadow: inset 0px 0px 0px 40px #0993B5;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	-moz-box-shadow: inset 0px 0px 0px 40px #5F979C;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	-o-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	box-shadow: inset 0px 0px 0px 40px #5F979C;
 }
 
 .social a:hover,
 .social a:active,
 .social a:focus{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #B11B95;
-	-moz-box-shadow: inset 0px 0px 0px 3px #B11B95;	
-	-ms-box-shadow: inset 0px 0px 0px 3px #B11B95;
-	-o-box-shadow: inset 0px 0px 0px 3px #B11B95;
-	box-shadow: inset 0px 0px 0px 3px #B11B95;	
+	-webkit-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
+	-moz-box-shadow: inset 0px 0px 0px 3px #ADD8D5;	
+	-ms-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
+	-o-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
+	box-shadow: inset 0px 0px 0px 3px #ADD8D5;	
 	
-	color: #B11B95; /* colour of my actual icon when hovering over it */
+	color: #ADD8D5; /* colour of my actual icon when hovering over it */
 }
 
 
@@ -130,7 +131,7 @@ body {
 }
 
 .work__info {
-	background-color: #FA9FBE;  /*hover state on images colour*/
+	background-color: #7AB2AA;  /*hover state on images colour*/
 	position: absolute;
 	color: #fff;
 	padding: .25em;
@@ -196,7 +197,7 @@ nav a:visited {
 nav a:hover,
 nav a:focus,
 nav a:active {
-	color: rgba(172,68,224,1.00);
+	color: #70B0B5;
 	text-decoration: underline;
 }
 
@@ -328,6 +329,7 @@ strong {
 .footer {
 	font-size: .75rem;
 }
+
 
 /* THIS IS THE TESTER STUFF. ITS LONG */
 
