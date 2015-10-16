@@ -65,7 +65,7 @@ body {
 
 .social {
 	text-align: center;
-	padding: 4em 0;
+	
 }
 
 
@@ -291,13 +291,6 @@ strong {
 	padding: 0;
 }
 
-.email {
-	text-decoration: underline; 	
-}
-
-.island {
-	padding: 1em;
-}
 
 .item {
 		font-size: .9rem;
@@ -314,9 +307,8 @@ strong {
 }
 
 .footer {
-	font-size: .75rem;
+	font-size: .75rem;	
 }
-
 
 /* THIS IS THE TESTER STUFF. ITS LONG */
 
