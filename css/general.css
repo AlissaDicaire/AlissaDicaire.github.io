@@ -58,7 +58,7 @@ body {
 }
 
 .contact {
-	background-color: white;
+	background-color: #ADD8D5;
 	background-size: cover;
 	padding: 1em 0em;
 }
@@ -110,13 +110,13 @@ body {
 .social a:hover,
 .social a:active,
 .social a:focus{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
-	-moz-box-shadow: inset 0px 0px 0px 3px #ADD8D5;	
-	-ms-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
-	-o-box-shadow: inset 0px 0px 0px 3px #ADD8D5;
-	box-shadow: inset 0px 0px 0px 3px #ADD8D5;	
+	-webkit-box-shadow: inset 0px 0px 0px 3px white;
+	-moz-box-shadow: inset 0px 0px 0px 3px white;	
+	-ms-box-shadow: inset 0px 0px 0px 3px white;
+	-o-box-shadow: inset 0px 0px 0px 3px white;
+	box-shadow: inset 0px 0px 0px 3px white;	
 	
-	color: #ADD8D5; /* colour of my actual icon when hovering over it */
+	color: white; /* colour of my actual icon when hovering over it */
 }
 
 
@@ -303,19 +303,6 @@ strong {
 		font-size: .9rem;
 }
 
-.selfie { 
-	text-align: center;
-	padding: 1rem;
-}
-
-.circle-image {	
-	padding: 1rem;	
-}
-
-.follow_me {
-	text-align: center;
-	width: 40%;
-}
 
 .text-image {
 	text-align: center;	
