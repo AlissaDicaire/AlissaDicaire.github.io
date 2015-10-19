@@ -203,15 +203,6 @@ nav a:active {
 	text-decoration: underline;
 }
 
-.nav[data-state="expanded"]{
-	display: block;
-	position: relative;
-}
-
-.nav-btn {
-	display: inline-block;
-	width: 30%;	
-}
 
 @media screen and (min-width: 25em) {
 	
