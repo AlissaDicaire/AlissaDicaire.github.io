@@ -251,7 +251,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	color: #000000;
+	color: rgba(28,88,99,1.00);
 	font-family: 'Poiret One', cursive;
 }
 
@@ -272,7 +272,7 @@ h4 {
 h5 {
 	font-family: 'Poiret One', cursive;
 	font-size: 2rem;
-	color: black;
+	color: rgba(28,88,99,1.00);
 	text-align: center;
 	margin: 0;
 }
