@@ -44,19 +44,23 @@ h2 {
 
 h3 {
 	text-align: center;	
-	color: rgba(255,255,255,1.00);
+	color: black;
 	font-family: 'Poiret One', cursive;
 	font-size: 3rem;
 }
 
 a {
-	color: white;	
+	color: black;	
 }
 
 a:hover,
 a:active,
 a:focus {
-	color: black;	
+	color: white;	
+}
+
+.logo {
+	width: 20%;	
 }
 
 .social {
