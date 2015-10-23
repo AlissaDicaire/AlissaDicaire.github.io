@@ -29,6 +29,11 @@ body {
 	
 }
 
+h4 {
+	font-size: .75rem;
+	text-align: center;
+}
+
 h1 {
 	text-align: center;	
 	color: rgba(255,255,255,1.00);
@@ -59,9 +64,6 @@ a:focus {
 	color: white;	
 }
 
-.logo {
-	width: 20%;	
-}
 
 .social {
 	text-align: center;
@@ -118,3 +120,28 @@ a:focus {
 	color: white; /* colour of my actual icon when hovering over it */
 }
 
+
+
+@media screen and (min-width: 40em) {
+	
+	.logo {
+		width: 60%;	
+	} 
+
+}
+
+@media screen and (min-width: 50em) {
+	
+	.logo {
+		width: 50%;	
+	} 
+
+}
+
+@media screen and (min-width: 50em) {
+	
+	.logo {
+		width: 20%;	
+	} 
+
+}
