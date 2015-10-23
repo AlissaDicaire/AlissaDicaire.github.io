@@ -117,7 +117,7 @@ body {
 }
 
 .why {
-	background-color: #CCEFEC;
+	background-color: white;
 	background-size: cover;
 	padding: 6em 2em; /*6em is the top and bottom and 0 is the left and right */
 }
@@ -125,6 +125,11 @@ body {
 
 .empty {
 	background: white;	
+	padding: .5em 0em;
+}
+
+.boo {
+	background: #ADD8D5;	
 	padding: .5em 0em;
 }
 
@@ -285,7 +290,7 @@ nav a:active {
 }
 
 .logo {
-	width: 100%;	
+	width: 30%;	
 }
 
 @media screen and (min-width: 25em) {
@@ -302,6 +307,8 @@ nav a:active {
 	h1 {
 		padding-top: 2em;
 	}
+	
+	
 	
 	.follow_me {
 		width: 30%;
@@ -1985,14 +1992,8 @@ select {
 	
 </section>
 
-<section class="under_dream">
-
-</section>
- 
-		 <h2>HELLO !</h2>
-		 
-		 
-		 
+<section class="why">
+		 	 
 		 <body>
  
 	<div class="row">
@@ -2015,7 +2016,9 @@ select {
 	</div>
 	</div>
 	
-	<section id="why" class="why">
+	</section>
+	
+	<section id="boo" class="boo">
 			
 			
 		 <h4 class="text">I am happiest outside, work hard and always learning. </h4>
@@ -2161,13 +2164,20 @@ select {
 				</figcaption>
 			</figure>
 		</div>
+		
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island">
+			<figure class="piece">
+				  <img src="images/more_work.jpg" alt=""></a>
+			</figure>
+		</div>
+
 
 </section>
 
 
 <section id="contact" class="contact">
 		
-	<h2>Send me an Email, Follow me on Behance, Linkedin and Instragam or view my Resume.</h2>
+	<h2>Send me an Email, Follow me on Behance, Linkedin and Instagram or view my Resume.</h2>
 	
 	<div class="social">
 		<a class="ease-all" href="mailto:dicaire.alissa@gmail.com" target="_blank"><i class="fa fa-3x fa-envelope"></i><span class="hide-text">Email</span></a>
@@ -2177,7 +2187,7 @@ select {
 		<a class="ease-all" href="AlissaDicaire_GraphicDesigner_Resume.pdf" target="_blank"><i class="fa fa-3x fa-file-o"></i><span class="hide-text">Email</span></a>
 	</div>
 			
-		<p class="footer">Copyright ©Alissa Dicaire 2015. All Rights Reserved. <a href="alissadicaire.ca">alissadicaire.ca</a></p>  
+		<p class="footer">Copyright ©Alissa Dicaire 2015. All Rights Reserved. <a href="#welcome">alissadicaire.ca</a></p>  
 		
 	
 </section>
@@ -2213,6 +2223,7 @@ if (document.documentElement.clientWidth>700) {
 	$('.group9').colorbox({rel:'group9'});
 	$('.group10').colorbox({rel:'group10'}); 
 	$('.group11').colorbox({rel:'group11'});
+	$('.group12').colorbox({rel:'group12'});
 } else {
 	$('.group1, .group2, .group3, .group4, .group5, .group6, .group7, .group8, .group9, .group10').on('click', function (e) {
 		e.preventDefault();
