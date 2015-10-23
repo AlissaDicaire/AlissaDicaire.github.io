@@ -91,7 +91,7 @@ a:focus {
 	margin-right: 1rem;
 	text-align: center;
 	padding-top: .8125rem;
-	color: rgba(255,255,255,1.00); /* colour of the icon before the hover*/
+	color: black; /* colour of the icon before the hover*/
 	
 	-webkit-border-radius: 40px;
 	-moz-border-radius: 40px;
@@ -99,21 +99,21 @@ a:focus {
 	-o-border-radius: 40px;
 	border-radius: 40px;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #5F979C;
-	-moz-box-shadow: inset 0px 0px 0px 40px #5F979C;	
-	-ms-box-shadow: inset 0px 0px 0px 40px #5F979C;
-	-o-box-shadow: inset 0px 0px 0px 40px #5F979C;
-	box-shadow: inset 0px 0px 0px 40px #5F979C;
+	-webkit-box-shadow: inset 0px 0px 0px 40px white;
+	-moz-box-shadow: inset 0px 0px 0px 40px white;	
+	-ms-box-shadow: inset 0px 0px 0px 40px white;
+	-o-box-shadow: inset 0px 0px 0px 40px white;
+	box-shadow: inset 0px 0px 0px 40px white;
 }
 
 .social a:hover,
 .social a:active,
 .social a:focus{
-	-webkit-box-shadow: inset 0px 0px 0px 3px white;
-	-moz-box-shadow: inset 0px 0px 0px 3px white;	
-	-ms-box-shadow: inset 0px 0px 0px 3px white;
-	-o-box-shadow: inset 0px 0px 0px 3px white;
-	box-shadow: inset 0px 0px 0px 3px white;	
+	-webkit-box-shadow: inset 0px 0px 0px 3px black;
+	-moz-box-shadow: inset 0px 0px 0px 3px black;	
+	-ms-box-shadow: inset 0px 0px 0px 3px black;
+	-o-box-shadow: inset 0px 0px 0px 3px black;
+	box-shadow: inset 0px 0px 0px 3px black;	
 	
 	color: white; /* colour of my actual icon when hovering over it */
 }
