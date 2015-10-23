@@ -1,56 +1,116 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.404 {
-	background: url(../images/catcher.jpg);
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;	
+	background-image: url(../images/beachbum.jpg);
 	background-size: cover;
 }
 
+* {
+	box-sizing: border-box;	
+}
+
+.main {
+	
+}
+
 h1 {
+	text-align: center;	
+	color: rgba(255,255,255,1.00);
 	font-family: 'Poiret One', cursive;
-	text-align: center;		
 }
 
 h2 {
-	font-family: 'Poiret One', cursive;
 	text-align: center;	
+	color: rgba(255,255,255,1.00);
+	font-family: 'Poiret One', cursive;
+	font-size: 2rem;
 }
 
 h3 {
-	font-family: 'Poiret One', cursive;
 	text-align: center;	
+	color: rgba(255,255,255,1.00);
+	font-family: 'Poiret One', cursive;
+	font-size: 3rem;
 }
 
-.sorry {
-	width: 100%;
-	margin: 0 auto;	
-}
-
-.behance {
-	text-decortion: underline;
-	font-size: 3rem;	
-	text-align: center;
-}
-
-a,
-a:link,
-a:visited {
-	text-decoration: none;
-	color: #1F5B80;
+a {
+	color: white;	
 }
 
 a:hover,
-a:focus,
-a:active {
-	color: #42BFE5;
-	text-decoration: underline;
+a:active,
+a:focus {
+	color: black;	
 }
 
-@media screen and (min-width: 25em) {
-	
-	.sorry {
-		width: 50%;
-		margin: 0 auto;	
-	}
+.social {
+	text-align: center;
 	
 }
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;	
+}
+
+.hide-text{
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social a{
+	display: inline-block;
+	
+	width: 75px;
+	height: 75px; 
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: .8125rem;
+	color: rgba(255,255,255,1.00); /* colour of the icon before the hover*/
+	
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	border-radius: 40px;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	-moz-box-shadow: inset 0px 0px 0px 40px #5F979C;	
+	-ms-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	-o-box-shadow: inset 0px 0px 0px 40px #5F979C;
+	box-shadow: inset 0px 0px 0px 40px #5F979C;
+}
+
+.social a:hover,
+.social a:active,
+.social a:focus{
+	-webkit-box-shadow: inset 0px 0px 0px 3px white;
+	-moz-box-shadow: inset 0px 0px 0px 3px white;	
+	-ms-box-shadow: inset 0px 0px 0px 3px white;
+	-o-box-shadow: inset 0px 0px 0px 3px white;
+	box-shadow: inset 0px 0px 0px 3px white;	
+	
+	color: white; /* colour of my actual icon when hovering over it */
+}
+
