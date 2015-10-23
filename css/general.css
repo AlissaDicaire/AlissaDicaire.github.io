@@ -207,10 +207,6 @@ nav a:active {
 	text-decoration: underline;
 }
 
-.logo {
-	width: 30%;	
-}
-
 @media screen and (min-width: 25em) {
 	
 	nav {
@@ -696,6 +692,11 @@ select {
     padding-right: 0.9375rem;
     float: left; } }
 @media only screen and (min-width: 40.0625em) {
+  
+  .logo {
+		width: 60%;	
+	} 
+  
   .medium-push-0 {
     position: relative;
     left: 0;
@@ -1058,6 +1059,16 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+	
+	@media screen and (min-width: 50em) {
+	
+	.logo {
+		width: 35%;	
+	} 
+
+}
+	
+	
 @media only screen and (min-width: 64.0625em) {
   .large-push-0 {
     position: relative;
